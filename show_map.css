@@ -1,0 +1,25 @@
+#map{
+  width: 100%;
+  margin: 55px 0 -42px 0;
+  height: 610px;
+}
+.pop{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 3px dashed green;
+  padding: 10px;
+  width: 400px;
+}
+.leaflet-popup-content-wrapper{
+  width: 440px;
+/* padding: 20px; */
+}
+strong{
+  font-size: 16px;
+  font-family: 'Roboto Slab',serif;
+}
+td{
+  padding: 5px;
+  vertical-align: middle;
+}

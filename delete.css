@@ -1,0 +1,62 @@
+.wrap{
+  width: 70%;
+  margin: 150px auto 100px;
+  padding-bottom: 20px;
+}
+.delete-top{
+  margin: 0px;
+  background-color: #590995;
+  color: white;
+  padding: 10px;
+}
+.notice{
+  width: 85%;
+  margin: 20px auto;
+  box-shadow: 1px 2px 8px 4px #ddd;
+}
+.notice-top{
+  font-weight: bold;
+  border-bottom: 4px dashed green;
+  padding: 15px;
+  background-color: #ddd;
+}
+.notice-content{
+  padding: 20px;
+}
+.notice_map{
+  display: inline-block;
+  width: 35px;
+  position: relative;
+  left: 90%;
+}
+.delete-form{
+  margin: 10px auto 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.delete-form input{
+  border: none;
+  background-color: white;
+  font-size: 24px;
+  padding: 10px;
+  width: 30%;
+  color: white;
+  font-family: "Monsterrat",sans-serif;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.effect:hover{
+  box-shadow: 1px 2px 6px 5px #ddd;
+  outline: none;
+  cursor: pointer;
+}
+table{
+  margin-left: 50px;
+  font-size: 22px;
+}
+td{
+  padding: 10px;
+}
+strong{
+  font-family: "Roboto Slab",serif;
+  padding: 0px 10px;
+}

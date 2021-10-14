@@ -1,0 +1,101 @@
+.manage-bar{
+  margin: 0px;
+  background-color: transparent;
+  width: 60%;
+  font-size: 21px;
+  height: 52px;
+  z-index: 10000000000;
+  position: fixed;
+  top: 20px;
+  left: 200px;
+}
+.search{
+  width: 70%;
+  padding: 11px;
+  font-size: 21px;
+  font-family: "Montserrat",sans-serif;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.search:hover, .search:focus{
+  box-shadow: 0px 5px 15px 2px gray;
+}
+.icon{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 8px;
+  left: 72%;
+  background-color: white;
+}
+.map_marker{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.map_marker img{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+table{
+  width: 90%;
+  margin: 150px auto;
+}
+td,th,tr{
+  font-size: 22px;
+  padding: 8px;
+  text-align: center;
+  border-bottom: none;
+}
+th{
+  background-color: #590995;
+  color: white;
+  font-family: "Roboto Slab",serif;
+}
+.expand{
+  display: none;
+  font-size: 18px;
+}
+.expand-btn{
+  text-shadow: 1px 2px 2px green;
+  transition: tranform 0.3s ease-in-out;
+}
+tr:nth-child(4n+1),tr:nth-child(4n+2){
+  background-color: #eeeeee;
+}
+select{
+  font-size: 22px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat",sans-serif;
+  background-color: inherit;
+}
+select:focus,select:hover{
+  outline: none;
+}
+strong{
+  font-family: 'Roboto Slab',serif;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+span{
+  vertical-align: baseline;
+}
+.submit-btn{
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.submit-btn:hover{
+  box-shadow: 1px 1px 5px 1px gray;
+  outline: none;
+}

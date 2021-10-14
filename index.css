@@ -1,0 +1,97 @@
+#map{
+  width: 70%;
+  box-shadow: 0px 0px 10px 3px gray;
+  height: 550px;
+  margin: 100px auto 0px;
+}
+.form-wrap{
+  margin: 20px auto 0px;
+  width: 30%;
+}
+#map_btn{
+  display: block;
+  margin: 0px auto;
+  width: 90%;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 40px;
+  border: 2px solid green;
+}
+#map-btn:hover{
+  background-color: white;
+  color: green;
+}
+.notice-board{
+  width: 55%;
+  margin: 20px auto 0px;
+}
+.notice-top{
+  display: block;
+  margin: 0px;
+  text-align: center;
+  background-color: #590995;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: "Montserrat",serif;
+  border: 4px solid #590995;
+  font-weight: bolder;
+}
+.notice-top:hover{
+  background-color: white;
+  color: #590995;
+}
+.notice{
+  width: 85%;
+  margin: 5px auto;
+  border-bottom: 5px solid green;
+  padding: 10px 40px;
+  transition: background-color 0.1s box-shadow 0.1s ease-in-out;
+}
+.notice:hover{
+  background-color: #EEEEEE;
+  box-shadow: 0px 2px 10px 5px #ddd;
+}
+.notice-title{
+  border-bottom: 2px dashed black;
+  margin: 0px;
+  font-size: 22px;
+  padding: 4px;
+}
+.notice-content{
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  line-height: 25px;
+}
+.notice_map{
+  display: inline-block;
+  width: 35px;
+  position: relative;
+  /* top: -5px; */
+  left: 90%;
+}
+@media screen and (max-width: 850px){
+  #map{
+    display: block;
+    width: 100%;
+  }
+  .notice-board{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+  }
+  #map-btn{
+    display: block;
+    width: 80%;
+  }
+  .notice-top{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+  }
+}
